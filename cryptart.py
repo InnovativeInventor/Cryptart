@@ -256,7 +256,7 @@ def file_len(fname):
             pass
     return i + 1
 
-parser = argparse.ArgumentParser(description='A tool to generate random passwords.')
+parser = argparse.ArgumentParser(description='A tool to generate cryptart of hashes.')
 parser.add_argument("--file", "-f", type=str, default="README.md", help="Specifies file to output password to.")
 parser.add_argument("--msg", "-m", type=str, default="Cryptoart", help="Default message to show.")
 parser.add_argument("--height", type=int, default="9", help="Height of the cryptoart.")
