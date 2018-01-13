@@ -29,7 +29,11 @@ optional arguments:
 ```
 
 ## Ascii cryptart of cryptart.py (dynamically generated)
-`php README.php > README.md`
+Command to generate README file: `php README.php > README.md`
+
+Example output:
+
+```
 cluster alentours dosed 
 +--[ Cryptoart ]--+
 |*+o+*+o          |
@@ -42,6 +46,7 @@ cluster alentours dosed
 |+ . o            |
 | .               |
 +-----------------+
+```
 
 ## Contributions and related
 I was inspired by openssh's randomart, but felt that colors and more visually recognizable patterns could be used instead. Contributions are always welcome!

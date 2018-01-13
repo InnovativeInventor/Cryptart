@@ -29,11 +29,16 @@ optional arguments:
 ```
 
 ## Ascii cryptart of cryptart.py (dynamically generated)
-`php README.php > README.md`
+Command to generate README file: `php README.php > README.md`
+
+Example output:
+
+```
 <?php
 $cryptart_ascii = shell_exec('python3 cryptart.py -f cryptart.py');
 echo "$cryptart_ascii";
 ?>
+```
 
 ## Contributions and related
 I was inspired by openssh's randomart, but felt that colors and more visually recognizable patterns could be used instead. Contributions are always welcome!
